@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/MainTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin.8"
+            android:gravity="center_horizontal"
+            android:text="@string/main_description"/>
+
+        <Button
+            android:onClick="onProjectOneClicked"
+            android:id="@+id/project1"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_1"/>
+
+        <Button
+            android:onClick="onProjectTwoClicked"
+            android:id="@+id/project2"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_2"/>
+
+        <Button
+            android:onClick="onProjectThreeClicked"
+            android:id="@+id/project3"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_3"/>
+
+        <Button
+            android:onClick="onProjectForeClicked"
+            android:id="@+id/project4"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_4"/>
+
+        <Button
+            android:onClick="onProjectFiveClicked"
+            android:id="@+id/project5"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_5"/>
+
+        <Button
+            android:onClick="onProjectSixClicked"
+            android:id="@+id/project6"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_name_6"/>
+
+    </LinearLayout>
+
+</FrameLayout>
