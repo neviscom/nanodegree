@@ -1,7 +1,6 @@
 package nevis.com.nanodegreeapp.view;
 
 import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
 
 /**
  * @author Nikita Simonov
